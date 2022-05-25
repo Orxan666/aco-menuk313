@@ -1,0 +1,29 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: grey;
+}
+
+#accordion {
+    .active{
+        height: 80px;
+        visibility: visible;
+    }
+    
+    button {
+        width: 100%;
+        border: 1px solid blue;
+        background-color: rgb(98, 210, 70);
+        color: rgb(21, 0, 255);
+        padding: 20px;
+    }
+
+    p {
+        height: 0;
+        transition: 1s ease-in;
+        visibility: hidden;
+
+
+    }
+}
